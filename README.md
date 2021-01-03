@@ -36,8 +36,15 @@ If you want more informations about the app you can see it on [wiki](https://git
 - **ID conflict :**
 
 ## Improvements
--index.css : 21	button	La propriété font-smoothing n'existe pas :  antialiased
--index.css : 34	body
+- **index.css :** 21	button ->La propriété font-smoothing n'existe pas :  antialiased
+- **index.css :** 34	body -> La propriété font-smoothing n'existe pas :  antialiased
+- **index.css :** 104	.new-todo, .edit -> La propriété font-smoothing n'existe pas :  antialiased
+- **base.js :** 145 GET http://127.0.0.1:5500/learn.json 404 (Not Found)
+- Background and foreground colors do not have a sufficient contrast ratio.
+- Does not have a <meta name="viewport"> tag with width or initial-scale
+- Document doesn't use legible font sizes
+- Tap targets are not sized appropriately
+- Document does not have a meta description
 
 
 ## App's Tests
