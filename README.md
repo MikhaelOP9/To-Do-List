@@ -48,6 +48,7 @@ If you want more informations about the app you can see it on [wiki](https://git
 
 
 ## App's Tests
+Tests on the Application are performed using **Jasmine**. You can find the list in the [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/App's-tests) or directly in the [ControllerSpec.js](test/ControllerSpec.js).
 
 ## Authors
 Created by Oscar Godson
