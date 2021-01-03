@@ -40,8 +40,8 @@ If you want more informations about the app you can see it on [wiki](https://git
 - **ID conflict :**
 
 ## Improvements
-- **index.css :** 21	button -> font-smoothing property doesn' exist :  antialiased
-- **index.css :** 34	body -> font-smoothing property doesn' exist  :  antialiased
+- **index.css :** 21	button -> font-smoothing property doesn't exist :  antialiased
+- **index.css :** 34	body -> font-smoothing property doesn't exist  :  antialiased
 - **index.css :** 104	.new-todo, .edit -> font-smoothing property doesn' exist  :  antialiased
 - **base.js :** 145 GET http://127.0.0.1:5500/learn.json 404 (Not Found)
 - Background and foreground colors do not have a sufficient contrast ratio.
