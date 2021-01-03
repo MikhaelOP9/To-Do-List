@@ -36,6 +36,9 @@ If you want more informations about the app you can see it on [wiki](https://git
 - **ID conflict :**
 
 ## Improvements
+-index.css : 21	button	La propriété font-smoothing n'existe pas :  antialiased
+-index.css : 34	body
+
 
 ## App's Tests
 
