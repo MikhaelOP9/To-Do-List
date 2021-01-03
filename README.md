@@ -32,7 +32,7 @@ followed by their detailed description.
 If you want more informations about the app you can see it on [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/Detailed-App).
 
 ## Fixes
-- **typo problem :**
+- **typo problem :** line 96 controller.js : Controller.prototype.adddItem in place of Controller.prototype.addItem
 - **ID conflict :**
 
 ## Improvements
