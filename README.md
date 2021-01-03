@@ -32,6 +32,8 @@ followed by their detailed description.
 If you want more informations about the app you can see it on [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/Detailed-App).
 
 ## Fixes
+- **typo problem :**
+- **ID conflict :**
 
 ## Improvements
 
