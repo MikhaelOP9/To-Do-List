@@ -30,3 +30,15 @@ followed by their detailed description.
 ↳ 📄 SpecRunner.html
 ```
 If you want more informations about the app you can see it on [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/Detailed-App).
+
+## Fixes
+
+## Improuvements
+
+## App's Tests
+
+## Authors
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
