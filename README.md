@@ -33,12 +33,13 @@ If you want more informations about the app you can see it on [wiki](https://git
 
 ## Fixes
 
-## Improuvements
+## Improvements
 
 ## App's Tests
 
 ## Authors
-
+Created by Oscar Godson
+Refactored by Christoph Burgmer & Mikhaël Gautier
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
