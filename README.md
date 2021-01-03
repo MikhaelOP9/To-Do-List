@@ -1,5 +1,5 @@
 # To-Do-List
-
+Correction and improvement of a to-do list app for OpenClassrooms. Projet 8 - OpenClassrooms
 
 ## Badges
 ![GitHub repo size](https://img.shields.io/github/repo-size/MikhaelOP9/To-Do-List)
