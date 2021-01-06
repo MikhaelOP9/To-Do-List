@@ -9,3 +9,6 @@ label[for="new-todo"] {
     white-space: nowrap; /* added line */
     border: 0;
 }
+.info{
+   font-size:14px ;
+}
