@@ -98,7 +98,21 @@ describe('controller', function () {
 			expect(model.read).toHaveBeenCalledWith({ completed: false }, jasmine.any(Function));
 			expect(view.render).toHaveBeenCalledWith('showEntries', todos);
 		});
+//Added-----------------------------------------------------------------
+		it("should show only active entries, completed true", function () {
+			// TODO: write test
+			var todo = {
+			  completed: true
+			};
+			setUpModel([todo]);
 
+			subject.setView("#/active");
+			// Vérifie que la todo est bien completed true
+			expect(view.render).toHaveBeenCalledWith("showEntries", [{
+			  completed: true
+			}]);
+		  });
+//----------------------------------------------------------------------
 		it('should show completed entries', function () {
 			// test added
 			var todos = [{title: 'my todo', completed: false}, {title: 'my todo 2', completed: true}];
@@ -158,26 +172,55 @@ describe('controller', function () {
 		subject.setView('');
 		expect(view.render).toHaveBeenCalledWith('setFilter', '');
 	});
-
+//Added------------------------------------------------------------------
 	it('should highlight "Active" filter when switching to active view', function () {
 		// test added
 		subject.setView('');
 		subject.setView('#/active');
 		expect(view.render).toHaveBeenCalledWith('setFilter', 'active');
 	});
+//------------------------------------------------------------------
+//Added-------------------------------------------------------------
+	it('should highlight "Completed" filter when switching to active view', function () {
+		// TODO: write test
+		setUpModel([]);
+
+		subject.setView('#/completed');
+
+		// Vérification que le filtre Completed est bien surligné quand l'utilisateur est sur la vue/page completed
+		expect(view.render).toHaveBeenCalledWith('setFilter', 'completed')
+	});
+//-----------------------------------------------------------------------
+	it('should highlight "Completed" filter when switching to completed view', function () {
+		// test added
+		subject.setView('');
+		subject.setView('#/completed');
+		expect(view.render).toHaveBeenCalledWith('setFilter', 'completed');
+	});
 
 	describe('toggle all', function () {
 		it('should toggle all todos to completed', function () {
-		// test added
-		var todos = [{id: 123456, title: 'todo 1', completed: false}, {id: 654321, title: 'todo 2', completed: false}, {id: 789456, title: 'todo 3', completed: true}];
-		setUpModel(todos);
-		subject.setView('#/');
+			// test added
+			var todos = [{id: 123456, title: 'todo 1', completed: false}, {id: 654321, title: 'todo 2', completed: false}, {id: 789456, title: 'todo 3', completed: true}];
+			setUpModel(todos);
+			subject.setView('#/');
 
-		subject.toggleAll(true);
-		expect(model.update).toHaveBeenCalledWith(todos[0].id, {completed: true}, jasmine.any(Function));
-		expect(model.update).toHaveBeenCalledWith(todos[1].id, {completed: true}, jasmine.any(Function));
-	});
+			subject.toggleAll(true);
+			expect(model.update).toHaveBeenCalledWith(todos[0].id, {completed: true}, jasmine.any(Function));
+			expect(model.update).toHaveBeenCalledWith(todos[1].id, {completed: true}, jasmine.any(Function));
+		});
+//Added--------------------------------------------------------------------------------
+		it('should toggle all todos to active', function () {
+			// test added
+			var todos = [{id: 123456, title: 'todo 1', completed: false}, {id: 654321, title: 'todo 2', completed: true}, {id: 789456, title: 'todo 3', completed: true}];
+			setUpModel(todos);
+			subject.setView('#/');
 
+			subject.toggleAll(false);
+			expect(model.update).toHaveBeenCalledWith(todos[1].id, {completed: false}, jasmine.any(Function));
+			expect(model.update).toHaveBeenCalledWith(todos[2].id, {completed: false}, jasmine.any(Function));
+		});
+//--------------------------------------------------------------------------------
 		it('should update the view', function () {
 			// test added
 			var todos = [{id: 123456, title: 'todo 1', completed: false}, {id: 654321, title: 'todo 2', completed: false}, {id: 789456, title: 'todo 3', completed: true}];
