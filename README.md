@@ -9,7 +9,6 @@ Correction and improvement of a to-do list app for OpenClassrooms. Projet 8 - Op
 
 ![GitHub](https://img.shields.io/github/license/MikhaelOP9/To-Do-List)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/97f077c5858a4ca99ce973e1868966c9)](https://www.codacy.com/manual/MikhaelOP9/To-Do-List?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MikhaelOP9/To-Do-List&amp;utm_campaign=Badge_Grade)
-[![time tracker](https://wakatime.com/badge/github/MikhaelOP9/To-Do-List.svg)](https://wakatime.com/badge/github/MikhaelOP9/To-Do-List)
 
 ## Detailed App
 You will find below the tree structure of the application's main files 
@@ -33,7 +32,7 @@ followed by their detailed description.
 ↳ 📄 ControllerSpec.js
 ↳ 📄 SpecRunner.html
 ```
-If you want more informations about the app you can see it on [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/Detailed-App).
+If you want more informations about the app you can see it on [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-app-detailed).
 
 ## Fixes
 - **typo problem :** line 96 controller.js : Controller.prototype.adddItem in place of Controller.prototype.addItem
@@ -52,7 +51,7 @@ If you want more informations about the app you can see it on [wiki](https://git
 
 
 ## App's Tests
-Tests on the Application are performed using **Jasmine**. You can find the list in the [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/App's-tests) or directly in the [ControllerSpec.js](test/ControllerSpec.js).
+Tests on the Application are performed using **Jasmine**. You can find the list in the [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-Jasmine-Test) or directly in the [ControllerSpec.js](test/ControllerSpec.js).
 
 ## Authors
 Created by Oscar Godson
