@@ -36,7 +36,7 @@ If you want more informations about the app you can see it on [wiki](https://git
 
 ## Fixes
 - **typo problem :** line 96 controller.js : Controller.prototype.adddItem in place of Controller.prototype.addItem
-- **ID conflict :**
+- **ID conflict :** line 40 index.html : it missed id="toggle-all"
 
 ## Improvements
 - **index.css :** 21	button -> font-smoothing property doesn't exist :  antialiased
