@@ -43,6 +43,7 @@ If you want more informations about the app you can see it on [wiki](https://git
 - **index.css :** 34	body -> font-smoothing property doesn't exist  :  antialiased
 - **index.css :** 104	.new-todo, .edit -> font-smoothing property doesn' exist  :  antialiased
 - **base.js :** 145 GET http://127.0.0.1:5500/learn.json 404 (Not Found)
+- **controller.js:** no need for this forEach
 - Background and foreground colors do not have a sufficient contrast ratio.
 - Does not have a <meta name="viewport"> tag with width or initial-scale
 - Document doesn't use legible font sizes
