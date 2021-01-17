@@ -59,4 +59,4 @@ Created by Oscar Godson
 Refactored by Christoph Burgmer & Mikhaël Gautier
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the https://github.com/MikhaelOP9/To-Do-List/blob/main/license.md file for details.
