@@ -34,11 +34,11 @@ suivi de leur déscription détaillé.
 ```
 Vous trouverez plus d'information sur l'application dans le [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-app-detailed).
 
-## Fixes
-- **typo problem :** line 96 controller.js : Controller.prototype.adddItem in place of Controller.prototype.addItem
-- **ID conflict :** line 40 index.html : it missed id="toggle-all"
+## Correction
+- **typo problem :** ligne 96 controller.js : Controller.prototype.adddItem in place of Controller.prototype.addItem
+- **ID conflict :** ligne 40 index.html : il manquait id="toggle-all"
 
-## Improvements
+## Amelioration
 - **index.css :** 21	button -> font-smoothing property doesn't exist :  antialiased
 - **index.css :** 34	body -> font-smoothing property doesn't exist  :  antialiased
 - **index.css :** 104	.new-todo, .edit -> font-smoothing property doesn' exist  :  antialiased
@@ -51,10 +51,10 @@ Vous trouverez plus d'information sur l'application dans le [wiki](https://githu
 - Document does not have a meta description
 
 
-## App's Tests
-Tests on the Application are performed using **Jasmine**. You can find the tests list in the [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-Jasmine-Test) or directly in the [ControllerSpec.js](test/ControllerSpec.js).
+##  Tests Jasmine JS
+Les tests sur l'application sont réalisés avec ** Jasmine **. Vous trouverez la liste des tests dans [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-Jasmine-Test) ou directement dans [ControllerSpec.js](test/ControllerSpec.js).
 
-## Authors
+## Auteurs
 Created by Oscar Godson
 Refactored by Christoph Burgmer & Mikhaël Gautier
 
