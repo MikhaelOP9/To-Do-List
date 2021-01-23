@@ -32,7 +32,7 @@ suivi de leur déscription détaillé.
 ↳ 📄 ControllerSpec.js
 ↳ 📄 SpecRunner.html
 ```
-Vous trouverez plus d'information sur l'application dans le [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-app-detailed).
+Vous trouverez plus d'information sur l'application dans le [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-d%C3%A9taill%C3%A9).
 
 ## Correction
 - **typo problem :** ligne 96 controller.js : Controller.prototype.adddItem in place of Controller.prototype.addItem
@@ -52,7 +52,7 @@ Vous trouverez plus d'information sur l'application dans le [wiki](https://githu
 
 
 ##  Tests Jasmine JS
-Les tests sur l'application sont réalisés avec ** Jasmine **. Vous trouverez la liste des tests dans le [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-Jasmine-Test) ou directement dans [ControllerSpec.js](test/ControllerSpec.js).
+Les tests sur l'application sont réalisés avec ** Jasmine **. Vous trouverez la liste des tests dans le [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/Test-Jasmine) ou directement dans [ControllerSpec.js](test/ControllerSpec.js).
 
 ## Auteurs
 Created by Oscar Godson
