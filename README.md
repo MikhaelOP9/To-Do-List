@@ -52,7 +52,7 @@ Vous trouverez plus d'information sur l'application dans le [wiki](https://githu
 
 
 ##  Tests Jasmine JS
-Les tests sur l'application sont réalisés avec ** Jasmine **. Vous trouverez la liste des tests dans [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-Jasmine-Test) ou directement dans [ControllerSpec.js](test/ControllerSpec.js).
+Les tests sur l'application sont réalisés avec ** Jasmine **. Vous trouverez la liste des tests dans le [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-Jasmine-Test) ou directement dans [ControllerSpec.js](test/ControllerSpec.js).
 
 ## Auteurs
 Created by Oscar Godson
