@@ -1,5 +1,5 @@
 # To-Do-List
-Correction and improvement of a to-do list app for OpenClassrooms. Projet 8 - OpenClassrooms
+Correction et amélioration d'une application de to-do list pour OpenClassrooms - Projet 8.
 
 ## Badges
 ![GitHub repo size](https://img.shields.io/github/repo-size/MikhaelOP9/To-Do-List)
@@ -10,9 +10,9 @@ Correction and improvement of a to-do list app for OpenClassrooms. Projet 8 - Op
 ![GitHub](https://img.shields.io/github/license/MikhaelOP9/To-Do-List)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/97f077c5858a4ca99ce973e1868966c9)](https://www.codacy.com/manual/MikhaelOP9/To-Do-List?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MikhaelOP9/To-Do-List&amp;utm_campaign=Badge_Grade)
 
-## Detailed App
-You will find below the tree structure of the application's main files 
-followed by their detailed description. 
+## Application détaillée
+Vous trouverez ci-dessous l'arborescence représentant les principaux fichiers de l'application,
+suivi de leur déscription détaillé.
 
 ```
 📄 index.html
@@ -32,7 +32,7 @@ followed by their detailed description.
 ↳ 📄 ControllerSpec.js
 ↳ 📄 SpecRunner.html
 ```
-If you want more informations about the app you can see it on [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-app-detailed).
+Vous trouverez plus d'information sur l'application dans le [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-app-detailed).
 
 ## Fixes
 - **typo problem :** line 96 controller.js : Controller.prototype.adddItem in place of Controller.prototype.addItem
