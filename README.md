@@ -35,8 +35,8 @@ suivi de leur déscription détaillé.
 Vous trouverez plus d'information sur l'application dans le [wiki](https://github.com/MikhaelOP9/To-Do-List/wiki/To-Do-List-d%C3%A9taill%C3%A9).
 
 ## Correction
-- **typo problem :** ligne 96 controller.js : Controller.prototype.adddItem in place of Controller.prototype.addItem
-- **ID conflict :** ligne 40 index.html : il manquait id="toggle-all"
+- **Faute de frappe:** ligne 96 controller.js : Controller.prototype.adddItem in place of Controller.prototype.addItem
+- **Conflit d'ID:** ligne 40 index.html : il manquait id="toggle-all"
 
 ## Amelioration
 - **index.css :** 21	button -> font-smoothing property doesn't exist :  antialiased
